@@ -1,0 +1,11 @@
+#include <winresrc.h>
+
+//exe
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "manifest.manifest"
+
+//dll
+//ISOLATIONAWARE_MANIFEST_RESOURCE_ID RT_MANIFEST "manifest.manifest"
+
+//windres --input manifest.rc --output manifest.res --output-format=coff -F pe-i386
+
+
